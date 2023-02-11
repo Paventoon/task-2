@@ -1,0 +1,18 @@
+Console.WriteLine("Lesson 2");
+Console.Write("Введите a: ");
+int a = Convert.ToInt32(Console.ReadLine()); 
+Console.Write("Введите b: ");
+int b = Convert.ToInt32(Console.ReadLine());
+if(a > b)
+{
+     Console.WriteLine("max = " + a + " и " + "min = " + b);
+   }
+
+else if ( b > a)
+{
+    Console.WriteLine("max = " + b + " и " + "min = " + a);
+}
+else
+{
+   Console.WriteLine("Оба числа равны");
+}
